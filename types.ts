@@ -4,13 +4,16 @@ export enum TargetLanguage {
   ITALIAN = 'Italian',
   FRENCH = 'French',
   SPANISH = 'Spanish',
-  GERMAN = 'German'
+  GERMAN = 'German',
+  CHINESE = 'Chinese',
+  JAPANESE = 'Japanese'
 }
 
-export interface TranslationState {
+export interface TranslationUnit {
+  id: number;
   inputHtml: string;
   outputHtml: string;
   isLoading: boolean;
+  isSuccess: boolean;
   error: string | null;
-  targetLanguage: TargetLanguage;
 }
