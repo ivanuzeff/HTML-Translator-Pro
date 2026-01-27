@@ -4,9 +4,7 @@ export enum TargetLanguage {
   ITALIAN = 'Italian',
   FRENCH = 'French',
   SPANISH = 'Spanish',
-  GERMAN = 'German',
-  CHINESE = 'Chinese',
-  JAPANESE = 'Japanese'
+  GERMAN = 'German'
 }
 
 export interface TranslationUnit {
